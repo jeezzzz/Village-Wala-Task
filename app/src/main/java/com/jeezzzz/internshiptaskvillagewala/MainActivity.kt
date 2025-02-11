@@ -6,10 +6,9 @@ import androidx.activity.compose.setContent
 import androidx.navigation.compose.rememberNavController
 import com.jeezzzz.internshiptaskvillagewala.navigation.Navigation
 import com.jeezzzz.internshiptaskvillagewala.ui.theme.InternshipTaskVillageWalaTheme
+import dagger.hilt.android.AndroidEntryPoint
 
-//import dagger.hilt.android.AndroidEntryPoint
-
-//@AndroidEntryPoint
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
